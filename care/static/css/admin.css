@@ -1,0 +1,25 @@
+#header{
+    height: 50px;
+    background: white;
+    color: #ffb606;
+}
+
+#branding h1 {
+    color: #ffb606;
+    font-family: 'Roboto Slab', serif;
+}
+a:link, a:visited {
+    color: #ffb606!important;
+}
+
+div.breadcrumbs {
+    background: #ffb606;
+    color: black;
+}
+div.breadcrumbs a {
+    color: white!important;
+}
+.module h2, .module caption a, .module caption, .inline-group h2 {
+    background: #ffb606;
+    color: white!important;
+}
