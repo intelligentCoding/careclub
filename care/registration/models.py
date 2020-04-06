@@ -7,7 +7,7 @@ class Registration(models.Model):
     lastName = models.CharField(max_length = 50)
     phoneNumber = models.CharField(max_length = 10)
     emailAddress = models.CharField(max_length = 100)
-    address = models.CharField(max_length = 100)
+    address = models.CharField(max_length = 500)
     postalCode = models.CharField(max_length = 6)
     province = models.CharField(max_length = 50)
     city = models.CharField(max_length = 50)
