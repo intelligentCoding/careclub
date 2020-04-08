@@ -1290,7 +1290,7 @@ form.ulockd-reg-form {
   position: relative;
 }
 .ulockd-main-logo > img {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 .ulockd-main-logo2 > img {
   margin-top: 10px;
@@ -1659,7 +1659,7 @@ transition: all 0.5s ease-in-out;
 .fclmn-one:hover {
 background-repeat: no-repeat;
 background-position: center center;
-background-image: url("../images/fclumn/1.jpg");
+/* background-image: url("../images/fclumn/1.jpg"); */
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -1669,7 +1669,7 @@ cursor: pointer;
 .fclmn-one.two:hover {
 background-repeat: no-repeat;
 background-position: center center;
-background-image: url("../images/fclumn/2.jpg");
+/* background-image: url("../images/fclumn/2.jpg"); */
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -1679,7 +1679,7 @@ cursor: pointer;
 .fclmn-one.three:hover {
 background-repeat: no-repeat;
 background-position: center center;
-background-image: url("../images/fclumn/3.jpg");
+/* background-image: url("../images/fclumn/3.jpg"); */
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -1689,7 +1689,7 @@ cursor: pointer;
 .fclmn-one.four:hover {
 background-repeat: no-repeat;
 background-position: center center;
-background-image: url("../images/fclumn/4.jpg");
+/* background-image: url("../images/fclumn/4.jpg"); */
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -1697,6 +1697,8 @@ background-size: cover;
 cursor: pointer;
 }
 .fclmn-one:hover .fc-icon {
+  color: #ffb606;
+  font-size: 100px;
 opacity: 1;
 }
 .fclmn-one .caption {
